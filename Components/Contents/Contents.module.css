@@ -1,0 +1,22 @@
+.sidebar{
+    max-height: calc(100vh - 8rem);
+    width: 22%;
+    max-width: 22%;
+    height: 100%;
+    position: sticky;
+    padding: 2rem 2.5rem;
+    color: #4e4e4e;
+}
+
+.sidebar h3{
+    margin: 0 1.5rem;
+}
+
+
+.sidebar__list{
+        margin-top: 2rem;
+}
+
+.sidebar__list__item{
+    margin-bottom: 0.8rem;
+}
