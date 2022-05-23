@@ -1,6 +1,6 @@
 import classes from './Header.module.css'
 
-import logo from '../../public/assests/image/cyber-defence-logo.jpg'
+import logo from '../../public/assests/image/logo-vertical.png'
 
 import Image from 'next/image'
 
@@ -46,7 +46,7 @@ export default function Header (){
                     <Image
                         src={logo}
                         width={100}
-                        height={50}
+                        height={100}
                     />
    
                 </a>
@@ -59,8 +59,6 @@ export default function Header (){
 
 
            {/* search bar */}
-
-
 
        
     <div className={classes.serach__bar}>

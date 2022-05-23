@@ -1,24 +1,33 @@
-.sidebar{
-    max-height: calc(100vh - 6.5rem);
-    width: 22%;
-    max-width: 22%;
-    height: 100%;
-    position: sticky;
-    padding: 2rem 2.5rem;
-    color: #4e4e4e;
+.sidebar {
+  max-height: calc(100vh - 6.5rem);
+  width: 50%;
+  max-width: 22%;
+  height: 100%;
+  position: sticky;
+  padding: 2rem 2.5rem;
+  color: #000000;
+  background-color: rgb(184, 244, 155);
 }
 
-.sidebar h3{
-    margin: 0 1.5rem;
+.sidebar h3 {
+  margin: 0 3rem;
+  width: 100%;
 }
 
-
-.sidebar__list{
-
-        margin-top: 2rem;
-
+.properWidth {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.sidebar__list__item{
-    margin-bottom: 0.8rem;
+.sidebar__list {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar__list__item {
+  margin-bottom: 0.8rem;
 }

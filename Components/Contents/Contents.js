@@ -10,7 +10,7 @@ return (
 
         <h3>Contents</h3>
 
-        <section> 
+        <section className={classes.properWidth}> 
         <ul className={classes.sidebar__list}>
 
             <ContentList title='SOC Investigation'/>
