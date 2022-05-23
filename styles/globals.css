@@ -33,6 +33,7 @@ ul{
 
 button{
   cursor: pointer;
+  border-width: 0;
 }
 
 

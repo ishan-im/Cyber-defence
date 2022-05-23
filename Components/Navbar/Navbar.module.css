@@ -1,12 +1,24 @@
 .navbar{
+
     border-top: 1px solid #ebebeb;
     box-shadow: 0 15px 10px -15px #1111112b;
     min-height: 40px;
-    background-color: white;
+    background: white;
     display: flex;
     flex-direction: row;
     width: 100%;
-    position: relative;
+    
+    justify-content: space-between;
+
+}
+
+
+.navbar__item__wrapper{
+    
+    margin: 0 auto;
+    display: flex;
+    
+
 }
 
 
@@ -20,18 +32,11 @@
     width:100%;
     
     scroll-behavior: smooth;
-    overflow: scroll;
+    
     padding-left: 0;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    
+    
     background-color: white;
 }
 
 
-.list__item{
-    padding: 10px 5px;
-}
-
-.list__item a{
-    padding: 0 10px;
-}

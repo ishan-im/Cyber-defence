@@ -10,7 +10,7 @@ return (
 
         <h3>Contents</h3>
 
-          <div> 
+        <section> 
         <ul className={classes.sidebar__list}>
 
             <ContentList title='SOC Investigation'/>
@@ -21,13 +21,29 @@ return (
             <ContentList title='Threat Intelligence'/>
             <ContentList title='Threat Intelligence'/>
             <ContentList title='Threat Intelligence'/>
+            <ContentList title='Cyber Crime'/>
+            <ContentList title='Industry News'/>
+            <ContentList title='Recent Cyber Attacks'/>
             <ContentList title='Threat Intelligence'/>
             <ContentList title='Threat Intelligence'/>
+            <ContentList title='Threat Intelligence'/>
+            <ContentList title='Threat Intelligence'/>
+            <ContentList title='Threat Intelligence'/>
+            <ContentList title='Cyber Crime'/>
+            <ContentList title='Industry News'/>
+            <ContentList title='Recent Cyber Attacks'/>
+            <ContentList title='Threat Intelligence'/>
+            <ContentList title='Threat Intelligence'/>
+            <ContentList title='Threat Intelligence'/>
+            <ContentList title='Threat Intelligence'/>
+            <ContentList title='Threat Intelligence'/>
+            <ContentList title='Cyber Crime'/>
+            <ContentList title='Industry News'/>
 
         
         </ul>
 
-        </div> 
+        </section> 
 
     </aside>
 

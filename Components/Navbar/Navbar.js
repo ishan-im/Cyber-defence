@@ -8,30 +8,34 @@ export default function Navbar () {
 return(
     <nav className={classes.navbar}>
 
-        <ul className={classes.navbar__list}>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
+        <div className={classes.navbar__item__wrapper}>
 
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-            <ListItem title='Hemlock'/>
-        </ul>
+                <ul className={classes.navbar__list}>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    <ListItem title='Hemlock'/>
+                    
+                    <ListItem title='Hemlock'/>
+                    
+
+                    
+                </ul>
+        </div>
 
     </nav>
 

@@ -1,0 +1,16 @@
+/* .item__wrapper{
+   
+    width: 100%;
+    font-size: 12px;
+    
+} */
+
+.list__item{
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+.list__item a{
+    padding: 0 10px;
+   
+}

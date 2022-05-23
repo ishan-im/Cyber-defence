@@ -1,11 +1,13 @@
 import classes from './Header.module.css'
 
-import logo from '../../public/assests/image/cyber-defense-logo.png'
+import logo from '../../public/assests/image/cyber-defence-logo.jpg'
 
 import Image from 'next/image'
 
 
 import {BsSearch} from 'react-icons/bs'
+
+import {FiMenu} from 'react-icons/fi'
 
 export default function Header (){
 
@@ -23,6 +25,12 @@ export default function Header (){
 
                 {/* hamberger menu */}
 
+            
+                    {/* <div className={classes.menu}>
+                        <button className={classes.hamberger__menu}>
+                            <FiMenu />
+                        </button>
+                    </div> */}
 
             {/* logo */}
 
@@ -30,20 +38,23 @@ export default function Header (){
 
             <div className={classes.main__logo}>
 
-                <a  href='/' className={classes.logo}>
+              <div className={classes.logo}>
+
+                <a  href='/' >
 
 
                     <Image
                         src={logo}
-                        width={30}
-                        height={30}
+                        width={100}
+                        height={50}
                     />
    
                 </a>
+
                 
-                <a  href='/' className={classes.logo}>
-                <h4>Cyber Defense</h4>
-                </a>
+                
+                
+                </div>
            </div>
 
 
@@ -53,14 +64,21 @@ export default function Header (){
 
        
     <div className={classes.serach__bar}>
-
+        
+            <div className={classes.form__wrapper}>
             <form className={classes.input__field}>
-                <input type="text"  className={classes.input__field_search}  placeholder='Search for Cyber Security related Blogs and Articles'/>
+                <input type="text"  className={classes.input__field_search}  placeholder='Search for Cyber Security related Blogs and Articles ...'/>
+                
+            </form>
+            </div>
+
+            <div className={classes.search__button__wrapper}>   
                 <button type="submit" className={classes.search__button}>
                 <BsSearch/>
                 </button>
-            </form>
-
+                </div>  
+            
+                
             </div>
 
 

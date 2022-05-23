@@ -1,5 +1,5 @@
 .sidebar{
-    max-height: calc(100vh - 8rem);
+    max-height: calc(100vh - 6.5rem);
     width: 22%;
     max-width: 22%;
     height: 100%;
@@ -14,7 +14,9 @@
 
 
 .sidebar__list{
+
         margin-top: 2rem;
+
 }
 
 .sidebar__list__item{
