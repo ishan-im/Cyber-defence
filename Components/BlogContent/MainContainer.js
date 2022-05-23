@@ -1,5 +1,6 @@
 
 import classes from './MainContainer.module.css'
+import Card from './Card';
 
 export default function MainContainer (){
     
@@ -7,9 +8,16 @@ export default function MainContainer (){
 
                 <main className={classes.main__container__wrapper}>
 
-                    <div className={classes.container}>
-                            
-                    </div>
+                    <section className={classes.container}>
+                         <Card/>   
+  
+                         
+                    </section>
+                    <section className={classes.container}>
+                         <Card/>   
+  
+                         
+                    </section>
 
                 </main>
         

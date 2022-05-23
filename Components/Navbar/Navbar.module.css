@@ -1,13 +1,12 @@
 .navbar{
 
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid #42ef9b;
     box-shadow: 0 15px 10px -15px #1111112b;
     min-height: 40px;
-    background: white;
     display: flex;
     flex-direction: row;
     width: 100%;
-    
+    background-color: rgb(222, 255, 200);
     justify-content: space-between;
 
 }
@@ -17,6 +16,7 @@
     
     margin: 0 auto;
     display: flex;
+    background-color: rgb(222, 255, 200);
     
 
 }
@@ -34,9 +34,8 @@
     scroll-behavior: smooth;
     
     padding-left: 0;
-    
-    
-    background-color: white;
+    background-color: rgb(222, 255, 200);
+
 }
 
 

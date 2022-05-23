@@ -1,4 +1,5 @@
-/* .main__wrapper{
+.main__wrappper{
     display: flex;
-    flex-direction: column;
-} */
+    /* flex-direction: column; */
+    width: 100%;
+}
