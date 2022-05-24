@@ -28,5 +28,5 @@ To learn more about Next.js, take a look at the following resources:
 
 
 ## `Live Deployment`
-<a href="http://cyber-defence-2.vercel.app/">Live Here</a>
+<a href="http://cyber-defence-2.vercel.app/" target="#blank">Live Here</a>
 
