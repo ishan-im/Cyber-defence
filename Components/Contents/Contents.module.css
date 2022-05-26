@@ -1,4 +1,7 @@
 .sidebar {
+  /* position: fixed;
+  z-index: 998!important; */
+ 
   max-height: calc(100vh - 6.5rem);
   width: 50%;
   max-width: 22%;
@@ -10,8 +13,10 @@
 }
 
 .sidebar h3 {
-  margin: 0 3rem;
-  width: 100%;
+  
+  
+  font-size:1.8rem;
+  
 }
 
 .properWidth {

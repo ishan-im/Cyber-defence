@@ -1,5 +1,11 @@
 .header {
   border-bottom-width: 1px;
+  /* position: fixed;
+  z-index: 999!important; */
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100vw;
 }
 
 .header__wrapper {
@@ -92,9 +98,9 @@
 
 .sign__in {
   grid-column: span 1 / span 1;
-  position: relative;
-  z-index: 30;
-  margin-left: 2rem;
+  /* position: relative;
+  z-index: 30; */
+  /* margin-left: 2rem; */
 }
 
 .sign__in button {

@@ -1,5 +1,9 @@
 .navbar{
-
+    /* position: fixed;
+    z-index: 999!important; */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
     border-top: 1px solid #42ef9b;
     box-shadow: 0 15px 10px -15px #1111112b;
     min-height: 40px;
