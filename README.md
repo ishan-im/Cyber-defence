@@ -15,6 +15,29 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
+## `Push to a new repo`
+
+Git push to a new repository:
+
+```bash
+$ git init
+git add -A
+git commit -m <commit message>
+git remote add origin git@github.com:ishan-im/Cyber-defence.git
+git push -u -f origin master
+```
+
+
+## `Push to existing repo`
+
+Git push to existing repository:
+
+```bash
+$ git remote set-url origin git@github.com:ishan-im/Cyber-defence.git
+git add  -A
+git commit -m <commit message>
+git push -f origin main
+```
 
 
 
