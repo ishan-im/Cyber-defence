@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 html,
 body {
 
-
   line-height: 1.5;
-  
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: 'Noto Serif', serif;
+  vertical-align: baseline;
 
-    font-family: 'Bitter', serif;
 }
 
 
@@ -20,7 +18,7 @@ body {
   border-width: 0;
   border-style: solid;
   border-color: rgb(226 232 240 / 80%);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 
@@ -30,6 +28,7 @@ a{
   text-decoration: none;
   color: black;
   cursor: pointer;
+  display: block;
 }
 
 ul{

@@ -1,12 +1,11 @@
 .navbar{
-    /* position: fixed;
-    z-index: 999!important; */
-    position: -webkit-sticky; /* Safari */
+    z-index: 999!important; 
     position: sticky;
-    top: 0;
+    top: 3.9rem;
     border-top: 1px solid #42ef9b;
     box-shadow: 0 15px 10px -15px #1111112b;
-    min-height: 40px;
+    min-height: 2.5rem;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -17,12 +16,12 @@
 
 
 .navbar__item__wrapper{
-    
+    overflow: hidden;
+    position: relative;
     margin: 0 auto;
     display: flex;
     background-color: rgb(222, 255, 200);
     
-
 }
 
 
