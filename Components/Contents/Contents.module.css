@@ -8,7 +8,8 @@
   top: 6.4rem;
   padding: 2rem 2.5rem;
   color: #000000;
-  background-color: rgb(184, 244, 155);
+  background: rgb(98,227,130);
+background: linear-gradient(90deg, rgba(98,227,130,1) 0%, rgba(185,255,140,1) 100%);
   overflow-y: auto;
 
 }

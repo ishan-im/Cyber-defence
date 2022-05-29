@@ -3,7 +3,8 @@
   top: 0;
   z-index: 999!important;
   width: 100%;
-  background: #f5ffc8;
+  background: rgb(136,235,36);
+background: linear-gradient(0deg, rgba(136,235,36,1) 0%, rgba(200,246,53,1) 100%);
   height: 3.9rem;
   margin: 0;
   font-size: 1.1rem;

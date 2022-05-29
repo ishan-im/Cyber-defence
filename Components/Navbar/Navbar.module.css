@@ -9,7 +9,8 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: rgb(222, 255, 200);
+    background: rgb(138,255,179);
+background: linear-gradient(90deg, rgba(138,255,179,0.9895308465182948) 0%, rgba(192,255,94,1) 100%);
     justify-content: space-between;
 
 }
@@ -37,7 +38,9 @@
     scroll-behavior: smooth;
     
     padding-left: 0;
-    background-color: rgb(222, 255, 200);
+    background: rgb(255,238,138);
+    background: rgb(138,255,179);
+    background: linear-gradient(90deg, rgba(138,255,179,0.9895308465182948) 0%, rgba(192,255,94,1) 100%);
 
 }
 
