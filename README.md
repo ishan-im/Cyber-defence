@@ -2,6 +2,8 @@
 
 ## Cyber Defence
 
+## `Clone the repo`
+
 First, clone this repository and run the development server:
 
 ```bash
@@ -39,7 +41,17 @@ git commit -m <commit message>
 git push -f origin main
 ```
 
+## `Change reflect in local repo`
 
+Git change in remote repo reflect in local repo:
+
+
+```bash
+$ git checkout main
+git pull -s recursive -X theirs
+git reset --hard origin/main
+git pull origin main
+```
 
 ## `Learn More`
 
