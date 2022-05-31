@@ -1,14 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-import classes from '../styles/Home.module.css'
+import classes from "../styles/Home.module.css";
 
-import Navbar from '../Components/Navbar/Navbar'
+import Navbar from "../Components/Navbar/Navbar";
 
-import Header from '../Components/Header/Header'
-import Contents from '../Components/Contents/Contents'
+import Header from "../Components/Header/Header";
+import Contents from "../Components/Contents/Contents";
 
-import MainContainer from '../Components/BlogContent/MainContainer'
-
+import MainContainer from "../Components/BlogContent/MainContainer";
 
 export default function Home() {
   return (
@@ -19,13 +18,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-     
-      <Header/>
-      <Navbar/>
+      <Header />
+      <Navbar />
       <div className={classes.main__wrappper}>
-      <Contents/>
-      <MainContainer/>
-     </div>
+        <Contents />
+        <MainContainer />
+      </div>
     </div>
-  )
+  );
 }
