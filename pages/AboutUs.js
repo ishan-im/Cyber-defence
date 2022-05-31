@@ -1,20 +1,23 @@
-import Navbar from "../Components/Navbar/Navbar";
+import Head from "next/head";
 import Image from "next/image";
 import imageOne from "../public/assests/image/clip-art-1.png";
 import imagetwo from "../public/assests/image/clip-art-2.png";
 import imagethree from "../public/assests/image/clip-art-3.png";
+import React from "react";
 
 function About() {
   return (
-    <>
-      <title>About Us</title>
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-        crossorigin="anonymous"
-      />
+    <React.Fragment>
 
+     <Head>
+        <title>About Us</title>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+          crossOrigin="anonymous"
+        />
+      </Head>
       <h1 className="container my-5 display-1">About Us</h1>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -113,7 +116,7 @@ function About() {
           nobis deleniti? Consequuntur deserunt iusto ab deleniti similique?
         </p>
       </div>
-    </>
+    </React.Fragment>
   );
 }
 

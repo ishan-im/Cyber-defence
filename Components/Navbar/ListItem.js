@@ -1,14 +1,19 @@
 import classes from './ListItem.module.css'
 
+import Link from 'next/link'
+
 export default function ListItem (props){
 
     return (
 
         
             <li className={classes.list__item}>
-                <a href={`/${props.title}`}>
-                {props.title}
-                </a>
+                <Link href={`/${props.title}`}>
+                        <a>
+                            {props.title}
+                        </a>
+                </Link>
+                
             </li>
         
     )

@@ -11,7 +11,7 @@ return(
         <div className={classes.navbar__item__wrapper}>
 
                 <ul className={classes.navbar__list}>
-                    <ListItem title='Hemlock'/>
+                    <ListItem title='AboutUs'/>
                     <ListItem title='Hemlock'/>
                     <ListItem title='Hemlock'/>
                     <ListItem title='Hemlock'/>
