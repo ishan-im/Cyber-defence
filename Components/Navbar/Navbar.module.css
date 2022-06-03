@@ -21,6 +21,7 @@ background: linear-gradient(90deg, rgba(138,255,179,0.9895308465182948) 0%, rgba
     position: relative;
     margin: 0 auto;
     display: flex;
+    width: 100%;
     background-color: rgb(222, 255, 200);
     
 }
@@ -28,11 +29,11 @@ background: linear-gradient(90deg, rgba(138,255,179,0.9895308465182948) 0%, rgba
 
 .navbar__list{
     
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-evenly;
     width:100%;
     
     scroll-behavior: smooth;
