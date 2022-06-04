@@ -1,23 +1,25 @@
 import classes from './Header.module.css'
 
+
 import logo from '../../public/assests/image/logo-vertical.png'
 
 import Image from 'next/image'
 
-import Link from 'next/link'
+
 import { BsSearch } from 'react-icons/bs'
 
 // import {FiMenu} from 'react-icons/fi'
 
-export default function Header() {
+export default function Header({handleModal}) {
+
+   
 
     return (
 
         <header className={classes.header}>
 
 
-
-            <div className={classes.header__wrapper_individual}>
+            <div className={classes.header__wrapper}>
 
                 {/* hamberger menu */}
 
@@ -30,11 +32,11 @@ export default function Header() {
 
                 {/* logo */}
 
+
+
                 {/* We need to make a logo :(  */}
 
                 <div className={classes.main__logo}>
-
-
 
                     <a href='/' >
 
@@ -73,20 +75,18 @@ export default function Header() {
                 </div>
 
 
-
-
                 {/* Sign In */}
 
-                <Link href={'/Signin'}>
+                
                     <div className={classes.sign__in}>
-                        <button type="submit">Sign in</button>
+
+                        <button type="submit" onClick={handleModal}>Sign in</button>
+
                     </div>
-                </Link>
+               
 
             </div>
-
-
-
+ 
         </header>
 
 

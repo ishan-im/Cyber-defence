@@ -1,13 +1,17 @@
 import classes from './Contents.module.css'
 
-export default function ContentList(props){
+import Link from 'next/link'
+
+export default function ContentList({title}){
 
     return(
         <li className={classes.sidebar__list__item}>
-
-            <a href={`\${props.title}`}>
-                {props.title}
+            
+            <Link href={`/${title}`}>
+            <a >
+                {title}
             </a>
+            </Link>
             
         </li>
     )

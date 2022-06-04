@@ -2,15 +2,17 @@ import classes from './ListItem.module.css'
 
 import Link from 'next/link'
 
-export default function ListItem (props){
+export default function ListItem ({title, link}){
 
     return (
 
         
             <li className={classes.list__item}>
-                <Link href={`/${props.title}`}>
+                
+                <Link href={`/${link}`} >
                         <a>
-                            {props.title}
+                            {title}
+                            
                         </a>
                 </Link>
                 

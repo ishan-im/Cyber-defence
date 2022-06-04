@@ -1,15 +1,29 @@
 import Head from "next/head";
 
+import { useState } from "react";
+
 import classes from "../styles/Home.module.css";
 
 import Navbar from "../Components/Navbar/Navbar";
 
 import Header from "../Components/Header/Header";
+
 import Contents from "../Components/Contents/Contents";
 
 import MainContainer from "../Components/BlogContent/MainContainer";
 
+import Modal from "../Components/Signin/Modal";
+
+
+
 export default function Home() {
+
+
+  const [ modal, setShowModal]  = useState(false)
+
+  const handleModal = ()=> setShowModal(true);
+
+
   return (
     <div className={classes.container}>
       <Head>
@@ -18,12 +32,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <Modal show={modal} onClose={()=> setShowModal(false)}/>
+      <Header handleModal={handleModal}/>
+
+      
+
       <Navbar />
       <div className={classes.main__wrappper}>
         <Contents />
         <MainContainer />
       </div>
+      
     </div>
   );
 }

@@ -1,13 +1,24 @@
-.SignIn_parentContainer {
+.SignIn_backdrop {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1500!important;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    background-color: rgb(27, 180, 201)
+    background-color: rgba(0, 0, 0, 0.75);
+
 }
 
 .SignIn_container {
+
+    position: fixed;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 2000!important;
+    animation: slide-down 300ms ease-out forwards;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,21 +29,25 @@
 
     border-radius: 10px;
     padding: 20px;
+
 }
 
 .SignIn_header {
+
     font-size: 1.1vw;
+
 }
 
 .SignIn_form {
+
     height: 100%;
     width: 100%;
-
     justify-content: center;
 
 }
 
 .SignIn_form_input {
+
     width: 100%;
     height: fit-content;
     margin-bottom: 2vh;
@@ -43,6 +58,7 @@
 }
 
 .SignIn_form_input input {
+
     width: 100%;
     outline: none;
     border-radius: 10px;
@@ -51,9 +67,11 @@
     display: flex;
     align-self: center;
     padding-left: 1vw;
+
 }
 
 .SignIn_form_input_checkbox {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,6 +84,7 @@
 }
 
 .SignIn_form_input_btn {
+
     width: 100%;
     height: 100%;
 
@@ -75,9 +94,11 @@
     align-self: center;
     justify-content: center;
     margin-bottom: 2vh;
+
 }
 
 .SignIn_form_input_btn button {
+
     width: 8vw;
     height: 5vh;
     border: none;
@@ -90,19 +111,48 @@
 }
 
 .SignIn_others {
+
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .SignIn_others_accounts {
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     cursor: pointer;
     margin-top: 1.5vh;
     width: 20%;
+
 }
+
+
+.btn{
+
+    position: relative;
+    left: calc(50%);
+
+}
+
+
+@keyframes slide-down {
+
+    from {
+
+      opacity: 0;
+      transform: translateY(-3rem);
+
+    }
+    to {
+
+      opacity: 1;
+      transform: translateY(0);
+
+    }
+  }

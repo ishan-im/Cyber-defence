@@ -1,5 +1,5 @@
 {
-  "name": "cyber-defense",
+  "name": "cyber-defence",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "framer-motion": "^6.3.6",
+    "framer-motion": "^6.3.9",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",

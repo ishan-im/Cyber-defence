@@ -51,10 +51,10 @@ function About() {
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
       ></script>
 
-      <figure class="text-center my-5">
+      <figure className="text-center my-5">
         <motion.blockquote  className="blockquote" style={myStyle}
         // initial={{opacity: 0}}
         // animate={{color: '#ff2994' , opacity: 1}}
@@ -67,7 +67,7 @@ function About() {
         >
           <p>A well-known quote, contained in a blockquote element.</p>
         </motion.blockquote>
-        <figcaption class="blockquote-footer my-3">
+        <figcaption className="blockquote-footer my-3">
           Someone famous in <cite title="Source Title">Source Title</cite>
         </figcaption>
       </figure>
