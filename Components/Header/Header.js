@@ -5,6 +5,8 @@ import logo from '../../public/assests/image/logo-vertical.png'
 
 import Image from 'next/image'
 
+import Link from 'next/link'
+
 
 import { BsSearch } from 'react-icons/bs'
 
@@ -38,16 +40,16 @@ export default function Header({handleModal}) {
 
                 <div className={classes.main__logo}>
 
-                    <a href='/' >
-
+                    <Link href='/' >
+                        <a>
                         <Image
                             src={logo}
                             width={100}
                             height={100}
 
                         />
-
-                    </a>
+                        </a>
+                    </Link>
 
 
                 </div>

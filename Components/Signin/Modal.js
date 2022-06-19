@@ -6,6 +6,7 @@ import { BsGoogle, BsFacebook } from 'react-icons/bs'
 
 import {AiOutlineClose} from 'react-icons/ai'
 
+import Link from 'next/link'
 
 
 
@@ -56,22 +57,24 @@ const Modal = ({show, onClose})=> {
                         <label>Password</label>
                         <input type="password" placeholder="Enter password (Min 6 characters long)" />
                     </div>
-                    <div className={classes.SignIn_form_input_checkbox}>
+                    {/* <div className={classes.SignIn_form_input_checkbox}>
                         <input type="checkbox" name="" id="" />
                         <p>Subscribe to our weekly Newsletter</p>
-                    </div>
+                    </div> */}
                     <div className={classes.SignIn_form_input_btn}>
                         <button type="submit">Sign In</button>
                     </div>
                 </form>
                 <div className={classes.SignIn_others}>
-                    <h3>Or</h3>
+                    <h5>Or</h5>
                     <h3>Sign in using</h3>
                     <div className={classes.SignIn_others_accounts}>
                         <BsGoogle />
                         <BsFacebook />
                     </div>
+                
                 </div>
+                <h5 className={classes.sign__Up}>Didn't have an account? <Link href='/register'><a style={{"display":"inline-block", "color":"#1B73E9"}}>Sign Up!</a></Link></h5>
             </div>
          </div>
          </div>
@@ -105,5 +108,3 @@ const Modal = ({show, onClose})=> {
 
 
 export default Modal
-
-

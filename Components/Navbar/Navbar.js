@@ -11,8 +11,8 @@ export default function Navbar() {
             <div className={classes.navbar__item__wrapper}>
 
                 <ul className={classes.navbar__list}>
-                    <ListItem title='About Us' link='AboutUs' />
-                    <ListItem title='What is Cyber Security'  link='WhatIsCyberSecurity'/>
+                    <ListItem title='About Us' link='aboutUs' />
+                    <ListItem title='What is Cyber Security'  link='whatIsCyberSecurity'/>
                     <ListItem title='Get Certificate' link='GetCertificate'/>
                     <ListItem title='Job' link='Job'/>
                     <ListItem title='Careers' link='Careers'/>

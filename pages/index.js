@@ -32,9 +32,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Modal show={modal} onClose={()=> setShowModal(false)}/>
+      
       <Header handleModal={handleModal}/>
-
+      <Modal show={modal} onClose={()=> setShowModal(false)}/>
       
 
       <Navbar />
