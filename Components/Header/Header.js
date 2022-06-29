@@ -42,12 +42,11 @@ export default function Header({handleModal}) {
 
                     <Link href='/' >
                         <a>
-                        <Image
-                            src={logo}
-                            width={100}
-                            height={100}
+                        <p>
+                            Cyber Defence
+                        </p>
 
-                        />
+                        
                         </a>
                     </Link>
 
