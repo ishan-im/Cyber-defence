@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
+html,
+body {
+
+  line-height: 1.5;
+  font-family: 'Noto Serif', serif;
+  vertical-align: baseline;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgb(226 232 240 / 80%);
+  /* overflow-x: hidden; */
+  
+}
+
+
+
+
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+
+ul{
+  list-style: none;
+}
+
+
+button{
+  cursor: pointer;
+  border-width: 0;
+}
+
+
+
+.quill > .ql-toolbar:first-child{
+  display: none !important;
+}
+
+/* Mobile First approach - small devices  */
+
+
+
+
+
+
+
+
+
+
+
+/* Medium size devices - tablet (min-width: 600 px)*/
+
+
+
+
+
+
+
+/* Large Size devices (min-width:1024 px)*/

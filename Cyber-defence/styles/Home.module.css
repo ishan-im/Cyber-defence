@@ -1,0 +1,21 @@
+.container{
+    max-width: 100%;
+}
+
+.main__wrappper{
+    display: flex;
+
+    width: 100%;
+}
+
+
+
+.main__container__wrapper{
+    
+    width: 100%;
+    padding: 2rem;
+    /* position: sticky; */
+    /* background-color: rgb(248, 245, 192); */
+    background: black;
+    
+}

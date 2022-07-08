@@ -1,0 +1,48 @@
+.article{
+  height: 20rem;
+}
+
+.article__userName {
+  position: relative;
+  left: 60px;
+  bottom: 45px;
+}
+
+.article__headLine {
+  position: relative;
+  left: 5px;
+}
+
+.article__paragraph {
+  position: relative;
+  left: 5px;
+  width: 60%;
+}
+
+.article__readMorebtn {
+  position: relative;
+  text-align: center;
+}
+
+.article__contentImage {
+  position: relative;
+  left: 70%;
+  bottom: 230px;
+
+  /* top: 10px; */
+}
+
+@media screen and (max-width: 1020px) {
+  .article__contentImage {
+    display: none;
+    
+  }
+  /* .gfg {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+    .geeks {
+        color: white;
+    } */
+}
