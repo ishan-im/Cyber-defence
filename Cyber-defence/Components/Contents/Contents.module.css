@@ -1,19 +1,13 @@
 .sidebar {
 
-  max-height: calc(100vh);
+  max-height: calc(100vh - 6.5rem);
   width: 50%;
   max-width: 25%;
-  
   position: sticky;
   top: 6.4rem;
   padding: 2rem 2.5rem;
   color: white;
   background: #1B2430;  /* fallback for old browsers */
-
-
-  /* background: -webkit-linear-gradient(to right, #94716B, #B79891); 
-  background: linear-gradient(to right, #94716B, #B79891);
-   */
   overflow-y: auto;
 
 }
@@ -23,26 +17,35 @@
   color: #EEEEEE;
 }
 
+
 .sidebar__header{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 1.25rem;
+  position: relative;
+  left: 1.1rem;
 }
+
 
 .properWidth {
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+
 .sidebar__list {
-  margin-top: 2rem;
-  width: 100%;
+  margin-top: 1.5rem;
+  width: 80%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   font-size: 1rem;
 }
+
 
 .sidebar__list__item {
   margin-bottom: 0.8rem;

@@ -53,7 +53,7 @@ export default function Home({blogData, moduleData}) {
 
     return(
 
-      <CardItem title={blog.title} userName={blog.postedBy} imageUrl={blog.image.url} content={blog.content} key={blog.createdAt}/>
+      <CardItem title={blog.title} userName={blog.postedBy} imageUrl={blog.image.url} content={blog.content} key={blog.createdAt} />
 
     )
 

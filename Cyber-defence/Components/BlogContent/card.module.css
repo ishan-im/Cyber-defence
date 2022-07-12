@@ -1,6 +1,6 @@
-.article{
-  height: 20rem;
-}
+/* .article{
+  height:  20rem;
+} */
 
 .article__userName {
   position: relative;
@@ -11,6 +11,7 @@
 .article__headLine {
   position: relative;
   left: 5px;
+  margin-bottom: 15px;
 }
 
 .article__paragraph {
@@ -45,4 +46,18 @@
     .geeks {
         color: white;
     } */
+}
+
+
+.icons{
+  display: flex;
+}
+
+
+
+.bookmark{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: 25rem;
 }

@@ -35,7 +35,7 @@ const contentRoutes = require('./routes/content')
 app.use(morgan('dev'))
 
 
-app.use(bodyParser.json({limit: '10mb', type:'application/json'}));
+app.use(bodyParser.json({limit: '50mb', type:'application/json'}));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 

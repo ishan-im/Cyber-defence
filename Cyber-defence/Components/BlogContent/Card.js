@@ -3,13 +3,18 @@ import Image from "next/image";
 import logo from "../../public/assests/image/logo-vertical.png";
 import user from "../../public/assests/image/user.png";
 import content from "../../public/assests/image/cyber.jpg";
-import { GrNext } from "react-icons/gr";
+import { FcNext} from "react-icons/fc";
+
+import {BiLike, BiDislike} from 'react-icons/bi'
+
+import {GoBookmark} from 'react-icons/go'
 
 const parse = require("html-react-parser");
 
 import renderHTML from 'react-render-html';
 
-export default function Card({ title, imageUrl, content, userName }) {
+export default function Card({ title, imageUrl, content, userName}) {
+
   return (
 
     <article  className={classes.article}>
@@ -31,15 +36,28 @@ export default function Card({ title, imageUrl, content, userName }) {
       <div className={classes.article__headLine}>
         <h2>{title}</h2>
       </div>
-      <div className={classes.article__paragraph}>{renderHTML(content)}</div>
+      <div className={classes.article__paragraph}>{parse(content.substring(0, 400))}...</div>
       <div className={classes.article__readMorebtn}>
         <a>
-          Read More <GrNext /> <GrNext />
+          Read More 
+            
+            <FcNext/><FcNext/>
+           
         </a>
       </div>
       <div className={classes.article__contentImage}>
         <img src={imageUrl} style={{ height: "100px", width: "200px" }} alt={title}/>
       </div>
+
+    <div className={classes.icons}>
+      <div>
+      <BiLike size='1.4rem'/> <BiDislike size='1.4rem'/>
+      </div>
+      <div className={classes.bookmark}>
+        <GoBookmark size='1.4rem'/>
+      </div>
+    </div>
+      
     </article>
     
   );

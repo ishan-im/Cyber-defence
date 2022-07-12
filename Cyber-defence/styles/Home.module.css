@@ -3,8 +3,8 @@
 }
 
 .main__wrappper{
-    display: flex;
 
+    display: flex;
     width: 100%;
 }
 
@@ -15,7 +15,6 @@
     width: 100%;
     padding: 2rem;
     /* position: sticky; */
-    /* background-color: rgb(248, 245, 192); */
     background: black;
     
 }

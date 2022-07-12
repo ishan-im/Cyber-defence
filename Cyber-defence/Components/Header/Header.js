@@ -102,7 +102,9 @@ const Header = ({handleModal}) =>{
                                     <div className={classes.sign__in}>
 
                                         <Link href='/user'>
-                                            <a><BiUserCircle color='blue' size='2rem'/></a>
+
+                                            <a><BiUserCircle color='aquamarine' size='2rem'/></a>
+
                                         </Link>
 
                                     </div>
@@ -115,7 +117,7 @@ const Header = ({handleModal}) =>{
                         <div className={classes.sign__in}>
 
                             <Link href='/admin'>
-                                <a><BiUserCircle color='blue' size='2rem'/></a>
+                                <a><BiUserCircle color='aquamarine' size='2rem'/></a>
                             </Link>
 
                         </div>

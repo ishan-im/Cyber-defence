@@ -143,6 +143,10 @@ exports.moduleList = (req,res)=>{
 }
 
 
+
+
+
+
 exports.readModule = (req,res)=>{
 
     const {slug} = req.params
@@ -159,6 +163,8 @@ exports.readModule = (req,res)=>{
 
             })
         }
+
+        console.log('from read module: ',module);
 
        res.json({module}) 
 
