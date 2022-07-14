@@ -2,6 +2,16 @@
   height:  20rem;
 } */
 
+.article__wrapper{
+  display: flex;
+}
+
+.article__wrapper .paragraph__wrapper p{
+ 
+  margin-right: 20px;
+
+}
+
 .article__userName {
   position: relative;
   left: 60px;
@@ -9,29 +19,35 @@
 }
 
 .article__headLine {
+
   position: relative;
   left: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 1.3rem;
 }
 
 .article__paragraph {
+  /* display: flex;
+  justify-content: space-between; */
   position: relative;
   left: 5px;
   width: 60%;
 }
 
 .article__readMorebtn {
+  display: flex;
+  align-items: flex-end;
   position: relative;
   text-align: center;
+  margin-top: 1.1rem;
 }
 
-.article__contentImage {
+/* .article__contentImage {
   position: relative;
   left: 70%;
   bottom: 230px;
 
-  /* top: 10px; */
-}
+  
+} */
 
 @media screen and (max-width: 1020px) {
   .article__contentImage {
@@ -51,6 +67,8 @@
 
 .icons{
   display: flex;
+  position: relative;
+  margin-top: 1.2rem;
 }
 
 

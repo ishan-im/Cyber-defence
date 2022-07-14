@@ -36,7 +36,13 @@ export default function Card({ title, imageUrl, content, userName}) {
       <div className={classes.article__headLine}>
         <h2>{title}</h2>
       </div>
-      <div className={classes.article__paragraph}>{parse(content.substring(0, 400))}...</div>
+
+      <div className={classes.article__wrapper}>
+
+        <div className={classes.paragraph__wrapper}>
+      {/* <div className={classes.article__paragraph}></div> */}
+
+      {parse(content.substring(0, 400))}
       <div className={classes.article__readMorebtn}>
         <a>
           Read More 
@@ -45,8 +51,14 @@ export default function Card({ title, imageUrl, content, userName}) {
            
         </a>
       </div>
+
+      </div>
+
+
       <div className={classes.article__contentImage}>
-        <img src={imageUrl} style={{ height: "100px", width: "200px" }} alt={title}/>
+        <img src={imageUrl} style={{ height: "150px", width: "250px" }} alt={title}/>
+      </div>
+
       </div>
 
     <div className={classes.icons}>
